@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liana Pohosian</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('./music image 1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+        }
+        .hero {
+            text-align: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .hero h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 20px;
+        }
+        .about-section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .about-section img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            margin-top: 20px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #555;
+        }
+        .video-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        iframe {
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 35px;
+            }
+            .hero p {
+                font-size: 16px;
+            }
+            .about-section img {
+                width: 120px;
+            }
+            nav a {
+                margin: 0 10px;
+                font-size: 16px;
+            }
+            .contact-form input, .contact-form textarea {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Liana Pohosian</h1>
+    <p>Vocalist | Performer | Musical Storyteller</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#music">Music</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Welcome to My World</h1>
+    <p>Feel the rhythm, live the music.</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="about-section">
+        <img src="liana 2.jpg" alt="Liana Pohosian">
+        <p>
+            Hi, I’m Liana Pohosian, a vocalist from Ukraine with a passion for blending the rich sounds of jazz, lounge, pop, R&B, and blues. Music has always been at the heart of who I am, and I strive to bring soul, emotion, and authenticity to every performance.
+        </p>
+    </div>
+    <p>
+        I developed my craft at the Kyiv Municipal Academy of Variety and Circus Arts, where I had the privilege of studying vocal performance and exploring the diverse world of music. My time at the Academy allowed me to master a variety of genres, and it inspired my love for storytelling through melody.
+    </p>
+    <p>
+        Whether I’m performing a sultry jazz ballad, a soulful R&B tune, or an upbeat pop favorite, my goal is always to connect with my audience on a deeper level. I believe music has the power to transport us, to heal, and to celebrate life’s most special moments—and I’m honored to share that experience with others.
+    </p>
+    <p>
+        From intimate lounges to larger stages, I’m always excited to bring my voice and energy to new audiences. Let me help create the perfect soundtrack for your events, milestones, or everyday moments that deserve a touch of magic.
+    </p>
+</section>
+
+<section id="music">
+    <h2>My Music</h2>
+    <p>Enjoy my latest performances:</p>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/Qq5emh5vD3s" title="Liana Pohosian Performance 1" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/Cg3naPGMHbY" title="Liana Pohosian Performance 2" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/fyH1J4GkQbk" title="Liana Pohosian Performance 3" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section id="events">
+    <h2>Upcoming Events</h2>
+    <ul>
+        <li><strong>Event Name:</strong> Location - Date</li>
+        <li><strong>Event Name:</strong> Location - Date</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:lianap632@gmail.com" style="color: lightblue;">lianap632@gmail.com</a></p>
+        <p><strong>Phone Number:</strong> 07549081186</p>
+    </div>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Liana Pohosian | All Rights Reserved</p>
+    <p><a href="#" style="color: lightblue;">Instagram</a> | <a href="#" style="color: lightblue;">Twitter</a></p>
+</footer>
+
+</body>
+</html>
